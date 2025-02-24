@@ -5,8 +5,8 @@ locale                   : "en-US"
 title                    : "OneFlow Jekyll Theme"
 title_separator          : "-"
 subtitle                 : " " 
-url                      : "https://adrianac13.github.io/jamstack/" 
-baseurl                  : 
+url                      : "https://adrianac13.github.io" 
+baseurl                  : "/jamstack"
 repository               : "perstarke-webdev/oneflow-jekyll-theme" 
 teaser                   : 
 logo                     : "/assets/images/logo.webp" 
