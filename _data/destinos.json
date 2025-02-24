@@ -1,0 +1,21 @@
+[
+    {
+      "titulo": "París: Encanto e Historia",
+      "fecha": "2025-02-23",
+      "categoria": ["Europa", "Destinos"],
+      "descripcion": "París es una de las ciudades más visitadas del mundo, famosa por su arquitectura, museos y gastronomía. Personalmente, me encanta pasear por sus calles y descubrir cafeterías con encanto. ¡La Torre Eiffel es obligatoria!"
+    },
+    {
+      "titulo": "Roma: La Ciudad Eterna",
+      "fecha": "2025-02-20",
+      "categoria": ["Europa", "Destinos"],
+      "descripcion": "Roma destaca por su historia milenaria y su exquisita cocina italiana. En mi opinión, no hay nada como disfrutar un helado frente al Coliseo o perderse por sus callejuelas llenas de encanto. ¡Es un destino imprescindible!"
+    },
+    {
+      "titulo": "Londres: Tradición y Modernidad",
+      "fecha": "2025-10-15",
+      "categoria": ["Europa", "Destinos"],
+      "descripcion": "Londres combina una rica historia con una vibrante vida cultural. Visitar el Big Ben y pasear por la orilla del Támesis es algo que nunca pasa de moda. Además, sus museos gratuitos son un gran punto a favor."
+    }
+  ]
+  

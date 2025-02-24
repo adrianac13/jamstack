@@ -2,29 +2,14 @@
 ---
 
 <!doctype html>
-<!--
-  OneFlow Jekyll Theme 1.1 by Per Starke
-  Copyright 2024 Per Starke - https://perstarke-webdev.de/
-  Free for personal and commercial use under the MIT license
-  https://opensource.org/license/mit/
--->
-
-<!--
-  Based on Minimal Mistakes Jekyll Theme.
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose.
-  Copyright 2013-2021 Michael Rose - mademistakes.com | @mmistakes
-  Licensed under MIT.
--->
 
 <html lang="{{ site.locale | slice: 0,2 | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
-    {% include head/custom.html %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached masthead.html %}
-
+    {% include_cached nav.html %}
 
     <style>
 
@@ -48,14 +33,9 @@
         }
     </style>
 
-
     {% if site.background-image %}
       <div class="bg">
     {% endif %}
-
-        {% if site.show-popup %}
-        {% include popup.html %}
-        {% endif %}
 
       <div class="initial-content">
         {{ content }}
@@ -63,7 +43,7 @@
 
       <div id="footer" class="page__footer">
         <footer>
-          {% include footer/custom.html %}
+          
           {% include_cached footer.html %}
         </footer>
       </div>
@@ -72,7 +52,7 @@
       </div>
     {% endif %}
 
-    {% include scripts.html %}
+    {% include scripts_imagenes.html %}
 
   </body>
 </html>
