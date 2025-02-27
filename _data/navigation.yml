@@ -1,13 +1,11 @@
 main:
   - title: "Inicio"
-    url: /
+    url: /index
     blank: false
-  - title: "Destinos"
-    url: /destinos
+  - title: "Alumnos"
+    url: /alumnos
     blank: false
-  - title: "Blog"
-    url: /_pages/blog
+  - title: "Notas"
+    url: /notas
     blank: false
-  - title: "Rutas y Viajes Inusuales"
-    url: https://droomviajes.com/destinos-insolitos-viajes-a-medida-a-lugares-fuera-de-lo-comun/
-    blank: true
+

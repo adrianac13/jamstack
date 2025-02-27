@@ -6,7 +6,7 @@ title                    : "OneFlow Jekyll Theme"
 title_separator          : "-"
 subtitle                 : " " 
 url                      : "https://adrianac13.github.io" 
-baseurl                  : "/jamstack"
+baseurl                  : "/examen"
 repository               : "perstarke-webdev/oneflow-jekyll-theme" 
 teaser                   : 
 logo                     : "/assets/images/logo.webp" 
